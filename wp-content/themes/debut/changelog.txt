@@ -1,0 +1,72 @@
+Version 2.6 (7.7.2011)
+NEW: Added ZURB Reveal Modal Box for instant view. Previous issues with prettyPhoto styles in browsers. This solution is simpler, cleaner, and easier to modify. (funtions.php, js/jquery.reveal.js, style.css/less)
+NEW: Added new filter function, c7s_reveal_modal(), to show Reveal Modal Box (functions.php, loop-featured.php, loop.php)
+NEW: Custom Post Gallery page template (template-post-gallery.php, styles.css/less)
+NEW: Added function for $allowedtags for Options Framework Info boxes. This was done for the new options-help.php file (options.php)
+NEW: Added dummy content file (dummy-content.xml)
+UPDATED: all option files have been updated to adjust for the new layout style of Options Framework (options/options-*.php)
+UPDATED: added additional CSS styles for Options Framework Plugin (options.php)
+UPDATED: c7s_localize_script() updated to not include prettyPhoto options
+UPDATED: prettyPhoto option were removed from javascript (js/script.js)
+UPDATED: added "data" attributes to links to allow for new Reveal Modal box (includes/entry-thumbnail.php)
+UPDATED: adjusted top nav borders to use rgba transparency values (style.css/less)
+UPDATED: Hero prev and next buttons rotate when animation option is set to a vertical setting
+REMOVED: prettyPhoto modal box files and options (functions.php, js/script.js, options/options-instant-view.php)
+REMOVED: flush() is gone as it was not really needed. (header.php, options/options-general.php)
+
+Version 2.5 (6.26.2011)
+UPDATED: PrettyPhoto js file updated to fix Firefox issue. (js/prettyPhoto/prettyPhoto.js)
+UPDATED: Styles for single post entry thumbnails (style.css)
+
+Version 2.4 (6.21.2011)
+NEW: Added the ability to upload a custom background image for the hero area (functions/theme-metabox.php, functions/metabox/metabox-hero-options.php, loop-hero.php)
+NEW: Added option to show pagination for featured area on home page. Enable/disable through theme options (home.php, loop-featured.php, options/options-featured.php, style.css/less)
+NEW: Added option to disable the Posted On information (options/options-general.php, includes/entry-header.php)
+UPDATED: c7s_of_check_notice() to include user permissions check (functions.php)
+UPDATED: Updated theme to use WordPress's copy of jQuery instead of Google's (functions.php)
+UPDATED: c7s_localize_script() action to be done on wp_print_scripts instead of init (functions.php)
+UPDATED: c7s_localize_script() to escape data before passing to script.js (functions.php)
+UPDATED: c7s_login_head_logo() to escape the logo url (functions.php)
+UPDATED: c7s_posted_on() to escape urls, attributes, and html (functions.php)
+UPDATED: c7s_posted_in() to escape urls, attributes, and html (functions.php)
+UPDATED: Updated various functions in theme-helpers.php to escape urls, attributes, and html (functions/theme-helpers.php)
+UPDATED: options-theme-styles.php to remove admin notices (options/options-theme-styles.php)
+UPDATED: moved custom theme styles from header.php to functions.php (header.php, functions.php)
+UPDATED: Custom Post Page Template to actually use the categories chosen. Simple needed to print values from array. (template-post-page.php)
+UPDATED: Page Header was pulling in first category in array used by Custom Post Page. Added a check if custom-post-page.php is in use (includes/page-header.php)
+UPDATED: Entry thumbnails to show correct size for home.php, template-post-page.php, and template-full.php (includes/entry-thumbnail.php)
+UPDATED: prettyPhoto to allow for youtu.be embed URL's (js/prettyphoto/jquery.prettyPhoto.js)
+REMOVED: manage_media_custom_column() as it belongs in a plugin (functions/theme-helpers.php)
+REMOVED: c7s_user_contactmethods() as it wasn't used within this theme (functions/theme-helpers.php)
+REMOVED: Some options for the instant view were removed. This is do to having to pull the content in as inline content rather than a URL because of embed codes and url's not supported by prettyPhoto (functions.php, js/script.js, options/options-instant-view.php)
+
+Version 2.3 (6.07.2011)
+UPDATED: Updated CSS for custom post widget.
+UPDATED: of_get_options() to p75_get_options() to adjust for the slight Options Framework Plugin change and for the move to Press75.com.
+
+Version 2.2 (5.18.2011)
+UPDATED: checkbox options in all files because of change in updated version of the Options Framework 0.6.
+UPDATED: functions/metabox/metabox.css to better match new WordPress styles to be introduced in version 3.2
+UPDATED: functions/metabox/metabox-*.php files to use a table format
+NEW: functions/shortcodes/shortcodes-options.php and shortcodes-quicktags.php
+NEW: editor styles (editor-styles.css, functions.php)
+REMOVED: functions/shortcodes/shortcodes-layout.php, shortcodes-media.php, shortcodes-callouts.php and consolidated into shortcodes-options.php
+
+Version 2.1 (4.26.2011)
+UPDATED: loop-featued.php conditional statement to include  $of_featured_hide == 'false'. If options framework has not been installed, then posts shall show.
+NEW: WordPress $content_width variable (functions.php)
+NEW: c7s_setup() function to functions.php
+REMOVED: a duplicate conditional statement in includes/entry-thumbnail.php
+REMOVED: unnecessary STYLESHEET and TEMPLATEPATH calls in functions.php
+MOVED: theme options to accommodate for Debut PRO
+
+Version 2.0 (4.20.2011)
+NEW: Initial Release
+
+-- Terms --
+NEW: Something added
+FIXED: Something fixed because it was broke
+REMOVED: Something removed for one reason or another
+REVISED: Something modified but has same or better result
+FILES ADDED: Files added to theme directory
+FILES RENAMED: Files in theme directory renamed to something else

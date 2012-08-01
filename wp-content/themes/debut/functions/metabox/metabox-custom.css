@@ -1,0 +1,11 @@
+/*-----------------------------------------------------------------------------------*/
+/*	CUSTOM: Media Embed
+/*-----------------------------------------------------------------------------------*/
+
+.c7s-embed-preview object,
+.c7s-embed-preview iframe,
+.c7s-embed-preview embed { width: 258px !important; height: 145px !important }
+
+
+
+

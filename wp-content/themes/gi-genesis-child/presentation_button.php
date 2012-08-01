@@ -1,0 +1,2 @@
+<div id="presentation_button"><a href="#" id="present_on" title="Presentation Mode On">Presentation Mode On</a>
+<a href= "#" id="present_off"  title="Presentation Mode Off">Presentation Mode Off</a></div>

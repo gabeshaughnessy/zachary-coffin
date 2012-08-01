@@ -1,0 +1,144 @@
+.c7s-metabox {
+  /* Fluid */
+
+  /* Helpers */
+
+  /* Form Elements */
+
+  /* Tables */
+
+  /* Tabs */
+
+}
+.c7s-metabox .w25 {
+  width: 25% !important;
+}
+.c7s-metabox .w33 {
+  width: 33.33% !important;
+}
+.c7s-metabox .w50 {
+  width: 50% !important;
+}
+.c7s-metabox .w66 {
+  width: 66.66% !important;
+}
+.c7s-metabox .w75 {
+  width: 75% !important;
+}
+.c7s-metabox .w100 {
+  width: 100% !important;
+}
+.c7s-metabox .f25 {
+  width: 25px !important;
+}
+.c7s-metabox .f33 {
+  width: 33px !important;
+}
+.c7s-metabox .f50 {
+  width: 50px !important;
+}
+.c7s-metabox .f67 {
+  width: 67px !important;
+}
+.c7s-metabox .f75 {
+  width: 75px !important;
+}
+.c7s-metabox .f100 {
+  width: 100px !important;
+}
+.c7s-metabox .left {
+  float: left;
+}
+.c7s-metabox .right {
+  float: right;
+}
+.c7s-metabox .textright {
+  text-align: right;
+}
+.c7s-metabox .deletion {
+  color: red;
+  border-bottom: 1px solid red;
+  text-decoration: none;
+  padding: 1px 2px;
+}
+.c7s-metabox .deletion:hover {
+  color: #fff;
+  background: red;
+}
+.c7s-metabox textarea, .c7s-metabox input[type='text'] {
+  margin: 6px 0 8px;
+  width: 98%;
+}
+.c7s-metabox label {
+  font-weight: bold;
+}
+.c7s-metabox label span {
+  font-weight: normal;
+  font-size: 12px;
+  color: #999;
+}
+.c7s-metabox table {
+  width: 100%;
+}
+.c7s-metabox .thead {
+  background: #ffffff;
+}
+.c7s-metabox th, .c7s-metabox td {
+  vertical-align: top;
+}
+.c7s-metabox th {
+  text-align: left;
+  font-weight: bold;
+}
+.c7s-metabox ul.metabox-tabs {
+  display: none;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+.c7s-metabox ul.metabox-tabs li {
+  display: inline;
+  padding: 5px;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -khtml-border-top-left-radius: 3px;
+  -khtml-border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.c7s-metabox ul.metabox-tabs li.active {
+  border-style: solid solid none;
+  border-width: 1px 1px 0;
+  background-color: #f1f1f1;
+  border-color: #dfdfdf;
+}
+.c7s-metabox ul.metabox-tabs li.active a {
+  color: #333;
+}
+.c7s-metabox ul.metabox-tabs a {
+  text-decoration: none;
+}
+.c7s-metabox .metabox-tabs-div ul {
+  list-style: none;
+}
+.c7s-metabox .metabox-tabs-div ul div.tabs-panel {
+  overflow: auto;
+  padding: 0.5em 0.9em;
+  border-style: solid;
+  border-width: 1px;
+}
+.c7s-metabox .heading {
+  padding-left: 10px;
+}
+.c7s-metabox .tab-content {
+  overflow: auto;
+  padding: 0.5em 0.9em;
+  border-style: solid;
+  border-width: 1px;
+}
+.c7s-metabox div.tab-content {
+  border-color: #DFDFDF;
+}
+* html .clearfix {
+  height: 1%;
+}

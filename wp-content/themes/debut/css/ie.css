@@ -1,0 +1,6 @@
+/*	Making IE Behave
+/*-----------------------------------------------------------------------------------*/
+
+.ie7 #main .entry-thumbnail img {
+	display: inline-block;
+}

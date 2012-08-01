@@ -1,0 +1,21 @@
+/* TEAM */
+
+	Designer and Developer: Luke McDonald (CELTIC7 Studio, LLC)                         
+	Site: www.lukemcdonald.com + www.celtic7.com                         
+	Twitter: @thelukemcdonald               
+	From: Iowa, USA.
+
+						
+/* THANKS */
+
+	Options Framework Plugin: Devin Price
+	Twitter: @devinsays
+	URL: https://github.com/devinsays/options-framework-plugin
+
+
+/* SITE */
+
+	Doctype: HTML5
+	Components: Modernizr, html5boilerplate, jQuery, Superfish, PrettyPhoto, Cycle Plugin
+	Platform: WordPress
+	Software: Coda, Fireworks

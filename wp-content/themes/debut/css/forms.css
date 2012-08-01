@@ -1,0 +1,189 @@
+body forms, body .gform_wrapper {
+  margin: 0;
+}
+body forms ul, body .gform_wrapper ul {
+  margin: 0;
+  list-style: none;
+}
+body forms textarea,
+body .gform_wrapper textarea,
+body forms input[type=text],
+body .gform_wrapper input[type=text],
+body forms input[type=url],
+body .gform_wrapper input[type=url],
+body forms input[type=email],
+body .gform_wrapper input[type=email],
+body forms input[type=phone],
+body .gform_wrapper input[type=phone],
+body forms input[type=number],
+body .gform_wrapper input[type=number],
+body forms input[type=file],
+body .gform_wrapper input[type=file],
+body forms input[type=password],
+body .gform_wrapper input[type=password] {
+  border: 1px solid #f5f5f5;
+  font-size: 14px;
+  color: #2d2d2d;
+  padding: 8px 10px;
+  outline: none;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  -webkit-transition: border 0.2s linear, -webkit-box-shadow 0.2s linear;
+  -moz-transition: border 0.2s linear, box-shadow 0.2s linear;
+}
+body forms textarea:hover,
+body .gform_wrapper textarea:hover,
+body forms input[type=text]:hover,
+body .gform_wrapper input[type=text]:hover,
+body forms input[type=url]:hover,
+body .gform_wrapper input[type=url]:hover,
+body forms input[type=email]:hover,
+body .gform_wrapper input[type=email]:hover,
+body forms input[type=phone]:hover,
+body .gform_wrapper input[type=phone]:hover,
+body forms input[type=number]:hover,
+body .gform_wrapper input[type=number]:hover,
+body forms input[type=file]:hover,
+body .gform_wrapper input[type=file]:hover,
+body forms input[type=password]:hover,
+body .gform_wrapper input[type=password]:hover {
+  -webkit-box-shadow: 0 0 15px #C8C8C8;
+  -moz-box-shadow: 0 0 15px #C8C8C8;
+  box-shadow: 0 0 15px #C8C8C8;
+}
+body forms input[type=submit]:hover, body .gform_wrapper input[type=submit]:hover {
+  color: #fff !important;
+  background: #2d2d2d url(../images/texture-dark.png);
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+}
+body forms input,
+body .gform_wrapper input,
+body forms textarea,
+body .gform_wrapper textarea {
+  border: 1px solid #e3e3e3;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.9);
+  background: #f5f5f5 url(../images/texture-light.png);
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body forms select, body .gform_wrapper select {
+  height: 35px;
+  font-size: 16px;
+}
+body forms .gform_fields,
+body .gform_wrapper .gform_fields,
+body forms .gfield,
+body .gform_wrapper .gfield,
+body forms .ginput_complex,
+body .gform_wrapper .ginput_complex,
+body forms .ginput_left,
+body .gform_wrapper .ginput_left,
+body forms .ginput_right,
+body .gform_wrapper .ginput_right,
+body forms .ginput_full,
+body .gform_wrapper .ginput_full {
+  overflow: visible !important;
+}
+body forms .gfield_time_hour input,
+body .gform_wrapper .gfield_time_hour input,
+body forms .gfield_time_minute input,
+body .gform_wrapper .gfield_time_minute input,
+body forms .gfield_date_month input,
+body .gform_wrapper .gfield_date_month input,
+body forms .gfield_date_day input,
+body .gform_wrapper .gfield_date_day input,
+body forms .gfield_date_year input,
+body .gform_wrapper .gfield_date_year input {
+  width: 50% !important;
+}
+body forms .ginput_complex .ginput_left,
+body .gform_wrapper .ginput_complex .ginput_left,
+body forms .ginput_complex .ginput_right,
+body .gform_wrapper .ginput_complex .ginput_right {
+  width: 48%;
+}
+body forms .ginput_complex .ginput_left, body .gform_wrapper .ginput_complex .ginput_left {
+  clear: both;
+}
+body forms .gfield_label, body .gform_wrapper .gfield_label {
+  color: #333333;
+  font-weight: bold;
+  line-height: 2;
+}
+body forms .gfield, body .gform_wrapper .gfield {
+  padding: 8px 0;
+}
+body forms .gfield_description,
+body .gform_wrapper .gfield_description,
+body forms .validation_message,
+body .gform_wrapper .validation_message {
+  font-size: 12px;
+  font-style: italic;
+}
+body forms .gfield_error, body .gform_wrapper .gfield_error {
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body forms .button,
+body .gform_wrapper .button,
+body forms .gform_edit_link a,
+body .gform_wrapper .gform_edit_link a {
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 15px;
+  margin-right: 10px !important;
+  color: #f5f5f5;
+  font-weight: bold;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+  border: none;
+  background: #2d2d2d url(../images/texture-dark.png);
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+body forms .button:hover,
+body .gform_wrapper .button:hover,
+body forms .gform_edit_link a:hover,
+body .gform_wrapper .gform_edit_link a:hover {
+  color: #fff !important;
+  background: #2d2d2d url(../images/texture-dark.png);
+  -webkit-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.05);
+}
+body forms .gform_edit_link, body .gform_wrapper .gform_edit_link {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+body forms .gform_edit_link a, body .gform_wrapper .gform_edit_link a {
+  font-size: 14px;
+  border-bottom: none !important;
+}
+body forms .gform_page_footer, body .gform_wrapper .gform_page_footer {
+  width: auto;
+}
+body forms .gform_footer, body .gform_wrapper .gform_footer {
+  overflow: hidden;
+}
